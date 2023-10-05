@@ -1,11 +1,11 @@
 ﻿Console.Write("Введите число от 1 до 7 : ");
 int nuber1 = int.Parse(Console.ReadLine());
-string []days = {"Понеделник","Вторник","Среда","Четверг","ПТ","СБ","ВС"};
-if(nuber1>=1 && nuber1<=7)
+string[] days = { "Понеделник", "Вторник", "Среда", "Четверг", "ПТ", "СБ", "ВС" };
+if (nuber1 >= 1 && nuber1 <= 7)
 {
-    Console.Write(days[nuber1-1]);
+    Console.Write(days[nuber1 - 1]);
 }
- else 
+else
 {
     Console.Write("Ввели число отличное от 1-7");
 }
